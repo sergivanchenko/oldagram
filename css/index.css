@@ -1,0 +1,55 @@
+/* General settings*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main {
+    border: 3px solid #000;
+    border-radius: 8px;
+}
+
+.container {
+    width: 375px;
+}
+
+/* Header */
+.header {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.image-logo {
+    width: 130px;
+}
+
+.image-circle {
+    width: 35px;
+    border-radius: 50%;
+    
+}
+
+/* Profile */
+
+.profile-avatar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.profile-desc {
+    margin-left: 15px;
+}
+
+.profile-name {
+    font-weight: bold;
+}
+
+/* Feedback */
