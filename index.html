@@ -19,20 +19,28 @@
     <main class="main">
       <header class="header container">
         <img class="image-logo" src="images/logo.png" />
-        <img class="image-circle" src="images/user-avatar.png" alt="User Van Gogh" />
+        <img class="image-circle" src="images/user-avatar.png" alt="My avatar" />
       </header>
       <section class="profile container">
         <div class="profile-avatar">
-          <img class="image-circle" src="images/avatar-vangogh.jpg" alt="Avatar Van Gogh" />
+          <img id="user-avatar" class="image-circle" src="images/avatar-vangogh.jpg" alt="Avatar Van Gogh" />
           <div class="profile-desc">
-            <p class="profile-name">Vincent van Gogh</p>
-            <p>Zundert, Netherlands</p>
+            <p id="profile-name" class="profile-name">Vincent van Gogh</p>
+            <p id="profile-location">Zundert, Netherlands</p>
         </div>
       </section>
       <section class="profile-photo container">
-        <img src="images/post-vangogh.jpg" alt="Selfie painting by Van Gogh">
+        <img id="profile-photo" src="images/post-vangogh.jpg" alt="Selfie painting by Van Gogh">
     </section>    
-      <section class="feedback container"></section>
+      <section class="feedback container">
+        <ul class="feedback-icons">
+            <li class="heart" ondblclick="increment()"><a href="#"><img src="images/icon-heart.png" alt="Heart icon"></a></li>
+            <li class="comment"><a href="#"></a><img src="images/icon-comment.png" alt="Comment icon"></a></li>
+            <li class="share"><a href="#"></a><img src="images/icon-dm.png" alt="Share icon"></a></li>
+        </ul>
+        <p class="likes"><span id="likes">21,492</span> likes</p>
+        <p id="users-feeling" class="users-feeling"><span>vincey1853</span> just took a few mushrooms lol</p>
+      </section>
     </main>
 
     <script src="index.js"></script>
